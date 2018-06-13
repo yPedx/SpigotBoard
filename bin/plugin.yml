@@ -1,7 +1,0 @@
-main: me.developer.ypedx.SpigotBoard
-version: v2.2.1
-name: SpigotBoard
-softdepend: [PlaceholderAPI, Vault]
-
-commands:
-  spigotboard: 
