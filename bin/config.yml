@@ -1,0 +1,51 @@
+#############################################################
+# ____        _             _   ____                      _ #
+#/ ___| _ __ (_) __ _  ___ | |_| __ )  ___   __ _ _ __ __| |#
+#\___ \| '_ \| |/ _` |/ _ \| __|  _ \ / _ \ / _` | '__/ _` |#
+# ___) | |_) | | (_| | (_) | |_| |_) | (_) | (_| | | | (_| |#
+#|____/| .__/|_|\__, |\___/ \__|____/ \___/ \__,_|_|  \__,_|#
+#      |_|      |___/                                       #
+#############################################################
+
+# Wiki: https://github.com/yPedx/SpigotBoard/wiki
+#
+# Report issues: https://github.com/yPedx/SpigotBoard/issues
+#
+# title = title of scoreboard.
+# text = scoreboard lines.
+#
+# Color codes are supported.
+#
+# List of all compatible variables
+# can be found on the wiki page.
+
+
+# Empty lines can be achieved by doing this: '' (as shown below)
+Scoreboard: 
+  title: '&cSpigot&7Board'
+  text: 
+    - '&8» &cPlayer'
+    - '&7{Player}'
+    - ''
+    - '&8» &cRank'
+    - '&7{Group}'
+    - ''
+    - '&8» &cTime'
+    - '&7{Time}'
+    - ''
+    - '&8» &cOnline'
+    - '&7{Online}/{MaxPlayers}'
+    - ''
+    - '&7Remember to'
+    - '&7visit the &cwiki&7!'
+
+Settings:
+  timezone: America/New_York
+  time-format: 'HH:mm'
+  toggleCommand: 'scoreboard'
+  disabled-worlds:
+    - disabledworld
+    - disabledworld2
+  interval-seconds: 7
+  update-reminder: true
+  disable-stats: false
