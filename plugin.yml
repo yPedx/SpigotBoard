@@ -1,0 +1,9 @@
+main: me.ypedx.spigotboard.SpigotBoard
+name: SpigotBoard
+version: 3.0.4
+author: yPedx
+softdepend: [PlaceholderAPI]
+
+commands:
+  spigotboard:
+    aliases: [sb]
